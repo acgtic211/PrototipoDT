@@ -11,15 +11,15 @@ Prototipo en Unreal Engine 4.27 desarrollado para el diseño de edificios inteli
 
 Para ejecutar el código y comprobar su funcionamiento en Unreal será necesario instalar lo siguiente:
 
-- Unreal Engine [versión 4.27]
+- Unreal Engine 4.27
 - Git
 
 ## Configuración del Proyecto
 
 1. **Clonar el Repositorio:**
-
+```
 git clone https://github.com/acgtic211/PrototipoDT.git
-
+```
 2. **Instalar Dependencias:**
 Será necesario incluir entre los plugins de Unreal utilizados VaRest. [https://www.unrealengine.com/marketplace/en-US/product/varest-plugin]
 
@@ -27,9 +27,13 @@ Será necesario incluir entre los plugins de Unreal utilizados VaRest. [https://
 - Abre el proyecto en Unreal Engine.
 - Compila el proyecto y ejecútalo.
 
+![Alt text](./ReadmeImages/UnrealView.png)
+
 ## Ejecutable compilado
 
 Si no se desea usar Unreal Engine para ver el proyecto, se puede acceder a [https://github.com/acgtic211/PrototipoDT/releases/tag/Prototipo].Para ejecutar el proyecto será necesario descomprimir el archivo y ejecutar el archivo ProyectoSistedes.
+
+![Alt text](./ReadmeImages/Ejecutable.png)
 
 ## Uso del Proyecto
 
@@ -43,3 +47,5 @@ Si no se desea usar Unreal Engine para ver el proyecto, se puede acceder a [http
 - En el supuesto de las ventanas, también permitirá ajustar sus persianas con las teclas T y G.
 - También se puede interactuar con los dispositivos a través de su interfaz, haciendo clic con el ratón en sus iconos o botones de "Relacionados".
 - Se distingue entre sensores (identificados con un color amarillo) y actuadores (caracterizados por un color rosado). Los sensores presentan información, mientras que los actuadores afectan a su entorno.
+
+![Alt text](./ReadmeImages/VisibleDevices.png)
